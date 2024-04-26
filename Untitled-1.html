@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citronics Cultural Fest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1;
+            padding: 1;
+            background-image: url("E:\Screenshot (82) 2.png"); /* Replace with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        header {
+            background-color: #007bff;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .entertainment-section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .sub-section {
+            flex: 1 0 calc(30% - 20px); /* Adjust the width of the tiles */
+            margin: 10px;
+            padding: 15px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sub-section:hover {
+            background-color: #0056b3;
+        }
+
+        .sub-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="entertainment-section">
+            <a href="#band-war" class="sub-section">
+                <img src="band-war-image.jpg" alt="Band War">
+                1. Band War
+            </a>
+            <a href="#open-mic" class="sub-section">
+                <img src="open-mic-image.jpg" alt="Open Mic">
+                2. Open Mic
+            </a>
+            <a href="#dance" class="sub-section">
+                <img src="dance-image.jpg" alt="Dance">
+                3. Dance(solo)
+                </a>
+            <a href="#dance" class="sub-section">
+                <img src="dance-image.jpg" alt="Dance">
+                4. Dance(duo)
+            </a>
+            <a href="#dance" class="sub-section">
+                <img src="E:\187719.jpg" alt="Dance">
+                5. beat the street
+            </a>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
